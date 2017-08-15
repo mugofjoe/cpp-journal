@@ -149,6 +149,9 @@
     <ClCompile Include="stdafx.cpp" />
     <ClCompile Include="vs_plrlsght_cpp_fndmntls.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="01_Context.md" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
