@@ -32,7 +32,7 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="vs_plrlsght_cpp_fndmntls.cpp">
+    <ClCompile Include="hello_joel.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

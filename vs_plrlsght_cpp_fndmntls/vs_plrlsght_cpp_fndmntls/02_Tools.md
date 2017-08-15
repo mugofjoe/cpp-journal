@@ -5,7 +5,9 @@
 Examples:
 
 `#include "stdafx.h"`
+
 `#include <iostream>`
+
 `#include <string>`
 
 - goes through your code before the compiler and tweaks your
@@ -27,6 +29,22 @@ code a little bit
   ### `<iostream>`
 
   - angle bracket refers to parts of the standard library.
+
+  ### `::`
+
+  - this is called the _scope resolution operator_
+
+  ### `stdafx.h`
+
+  - precompiled headers
+
+  - things that you use a lot in many different places. Put them
+  in here and it will speed up the compilation process
+
+
+
+
+
 
 
 
