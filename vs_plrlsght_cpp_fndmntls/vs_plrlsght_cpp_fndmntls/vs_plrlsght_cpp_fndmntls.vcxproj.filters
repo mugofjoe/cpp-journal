@@ -40,5 +40,8 @@
     <None Include="01_Context.md">
       <Filter>Notes</Filter>
     </None>
+    <None Include="02_Tools.md">
+      <Filter>Notes</Filter>
+    </None>
   </ItemGroup>
 </Project>
