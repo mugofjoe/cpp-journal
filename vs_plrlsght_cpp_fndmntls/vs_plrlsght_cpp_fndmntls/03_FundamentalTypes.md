@@ -39,6 +39,11 @@ By _casting_ you make your intention clear to the compiler.
 > Safer casts are available once you know templates
 
 ### Suffixes to show type of literal
+- `0L`  I am telling you this is a `long`
+
+> Be aware that _overflow_ can happen silently
+
+- Avoid using very small types for numbers
 
 
 
