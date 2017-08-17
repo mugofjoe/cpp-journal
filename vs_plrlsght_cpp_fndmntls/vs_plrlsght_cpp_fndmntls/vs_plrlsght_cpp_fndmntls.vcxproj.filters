@@ -49,5 +49,8 @@
     <None Include="03_FundamentalTypes.md">
       <Filter>Notes</Filter>
     </None>
+    <None Include="04_UserDefinedTypes.md">
+      <Filter>Notes</Filter>
+    </None>
   </ItemGroup>
 </Project>

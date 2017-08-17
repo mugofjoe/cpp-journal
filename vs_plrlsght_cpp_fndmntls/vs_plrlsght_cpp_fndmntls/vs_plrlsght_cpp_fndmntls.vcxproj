@@ -153,6 +153,7 @@
     <None Include="01_Context.md" />
     <None Include="02_Tools.md" />
     <None Include="03_FundamentalTypes.md" />
+    <None Include="04_UserDefinedTypes.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
