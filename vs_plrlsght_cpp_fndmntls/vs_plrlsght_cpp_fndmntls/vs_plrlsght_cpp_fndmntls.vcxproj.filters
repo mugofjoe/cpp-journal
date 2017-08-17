@@ -35,6 +35,9 @@
     <ClCompile Include="hello_joel.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="003VariablesAndTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="01_Context.md">
