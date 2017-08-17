@@ -145,14 +145,14 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="003VariablesAndTypes.cpp" />
+    <ClCompile Include="003_FundamentalTypes.cpp" />
     <ClCompile Include="stdafx.cpp" />
     <ClCompile Include="hello_joel.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="01_Context.md" />
     <None Include="02_Tools.md" />
-    <None Include="03_VariablesFundamentalTypes.md" />
+    <None Include="03_FundamentalTypes.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

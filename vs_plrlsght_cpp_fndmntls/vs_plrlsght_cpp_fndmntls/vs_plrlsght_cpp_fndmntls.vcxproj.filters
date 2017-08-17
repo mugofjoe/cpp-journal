@@ -35,7 +35,7 @@
     <ClCompile Include="hello_joel.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="003VariablesAndTypes.cpp">
+    <ClCompile Include="003_FundamentalTypes.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -46,7 +46,7 @@
     <None Include="02_Tools.md">
       <Filter>Notes</Filter>
     </None>
-    <None Include="03_VariablesFundamentalTypes.md">
+    <None Include="03_FundamentalTypes.md">
       <Filter>Notes</Filter>
     </None>
   </ItemGroup>
