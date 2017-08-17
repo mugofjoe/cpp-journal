@@ -29,10 +29,20 @@ Assigning a `double` variable into an `int` variable drops the
 values after the decimal.
 
 
-# Casting
+## Casting
 - Compiler will convert types where they're compatible
 - Warning if data might be lost
 - Error if they're not compatible
+
+By _casting_ you make your intention clear to the compiler.
+
+> Safer casts are available once you know templates
+
+### Suffixes to show type of literal
+
+
+
+
 
 
 
