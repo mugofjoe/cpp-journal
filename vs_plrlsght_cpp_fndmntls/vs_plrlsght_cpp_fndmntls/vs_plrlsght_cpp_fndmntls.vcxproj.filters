@@ -43,5 +43,8 @@
     <None Include="02_Tools.md">
       <Filter>Notes</Filter>
     </None>
+    <None Include="03_VariablesFundamentalTypes.md">
+      <Filter>Notes</Filter>
+    </None>
   </ItemGroup>
 </Project>
