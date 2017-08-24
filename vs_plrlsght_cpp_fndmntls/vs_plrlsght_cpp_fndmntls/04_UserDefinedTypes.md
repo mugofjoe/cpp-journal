@@ -53,6 +53,75 @@ Object goes out of scope usually at a }
 
 Memory is freed and destructor runs
 
+### RAII 
+
+- Resource Acquisition is Initialization
+- Acquire resources in the constructor
+- Release them in the destructor
+- Example: open/close file, database connection, etc.
+
+
+## `struct`
+
+- like a class
+- a user-defined type
+- used for POD or plain old data with little or no business logic
+- can have member functions, constructor, destructor
+- _Difference_ is default access is `public`
+
+
+## Inheritance
+
+- Derived classes can add or override member variables and functions
+
+## Namespaces
+
+- Prevent name collisions
+- Separate from class name with :: operator
+- _DON'T USE `using namespace ...` in the header file!
+
+### _using_
+
+Instead of typing `std::cout` every time, use:
+
+	`using std::cout;`
+
+So you can just type:
+	
+	`cout << "blah blah blah"`
+
+Or just use the entire namespace:
+
+	`using namespace std;`
+
+So you can just type:
+
+	`string lastname` instead of `std::string lastname`
+
+
+## Enum
+
+- Give naames to a set of constants
+- Names must be unique
+	- Cannot do `myenum.Pending`
+
+
+## PreProcessor
+
+- Lines that start # are pre-processor directives
+	- `#include`
+
+- Can use to compile slightly different code under different circumstances
+	- Example: "a debug build"
+
+- Can also use for convenience
+	- Include guards 
+		- with `#ifndef` `#endif` and `#define`
+		- This is a standard
+	- `#pragma once`
+		- another approach
+		- It says: This particular file should only be included once in each 
+		compilation unit.
 
 
 
