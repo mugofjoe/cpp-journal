@@ -1,6 +1,5 @@
 #include <string>
 
-
 class Person
 {
 private:
@@ -10,6 +9,8 @@ private:
 
 public:
 	Person(std::string first,
-		std::string last,
-		int arbitrary);
+		   std::string last,
+		   int arbitrary);
+
+	~Person();
 }; 
