@@ -5,6 +5,7 @@ class Person
 private:
 	std::string firstname;
 	std::string lastname;
+public:
 	int arbitrarynumber;
 
 public:

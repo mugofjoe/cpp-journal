@@ -39,10 +39,22 @@ Create a class (Person.cpp)
 	- colon (:) is the initializer operator
 
 
-
 - The values for most types in C++ are not defaulted or initialized for you.
 	- It's possible for objects to have the defaulted and initialized.
 	- It's not possible for integers to be initialized.
+
+## Scope
+
+Constructor is called when control reaches the line they're declared.
+
+Memory is allocated for them on the stack.
+
+Object goes out of scope usually at a }
+
+Memory is freed and destructor runs
+
+
+
 
 
 
