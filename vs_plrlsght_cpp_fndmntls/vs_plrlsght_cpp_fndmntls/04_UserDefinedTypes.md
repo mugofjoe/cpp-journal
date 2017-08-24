@@ -14,10 +14,31 @@
 
 This is the standard C++ precompiled header
 
+
+## Header files
+
+Tells everybody else that "this object exists". This function exists, etc.
+
+- Other files include this header. They only need to know that the function exists.
+- The implementation is done in the class file itself.
+
+
 ## Creating a class
 
-We are creating a Person class.
-We create a Person.h header file.
+Create a header file (Person.h)
+- Specify the members
+- Specify the constructor (but not implement it)
+- Specify function signatures
+
+Create a class (Person.cpp)
+- Create a Person.cpp under Source Files folder
+- Use initializer syntax when doing a parameterized constructor
+	- works well if initializing a variable is expensive
+		- compiler doesn't have to initialize to default and then
+		initialize it again afterwards with your argument value
+	- colon (:) is the initializer operator
+
+
 
 - The values for most types in C++ are not defaulted or initialized for you.
 	- It's possible for objects to have the defaulted and initialized.
