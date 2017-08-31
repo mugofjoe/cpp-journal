@@ -146,14 +146,21 @@
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="Tweeter.h" />
+    <ClInclude Include="Utility.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="003_FundamentalTypes.cpp" />
     <ClCompile Include="004_ClassesAndObjects.cpp" />
+    <ClCompile Include="005_For_Loop.cpp" />
+    <ClCompile Include="005_Functions.cpp" />
+    <ClCompile Include="005_If.cpp" />
+    <ClCompile Include="005_Switch.cpp" />
+    <ClCompile Include="005_While.cpp" />
     <ClCompile Include="Person.cpp" />
     <ClCompile Include="stdafx.cpp" />
     <ClCompile Include="000_Hell_Joel.cpp" />
     <ClCompile Include="Tweeter.cpp" />
+    <ClCompile Include="Utility.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="01_Context.md" />

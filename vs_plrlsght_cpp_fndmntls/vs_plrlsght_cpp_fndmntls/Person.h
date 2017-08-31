@@ -7,7 +7,6 @@ class Person
 private:
 	std::string firstname;
 	std::string lastname;
-public:
 	int arbitrarynumber;
 
 public:
@@ -16,5 +15,9 @@ public:
 		   int arbitrary);
 
 	~Person();
+
+	std::string GetName();
+	int GetNumber() { return arbitrarynumber; }
+	void SetNumber(int number) { arbitrarynumber = number;  }
 }; 
 #endif // !_PERSON_H
