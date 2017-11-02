@@ -77,6 +77,12 @@
     <ClCompile Include="Utility.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="005_Immediate_If.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="006_Arithmetic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="01_Context.md">
@@ -92,6 +98,9 @@
       <Filter>Notes</Filter>
     </None>
     <None Include="05_FlowControl.md">
+      <Filter>Notes</Filter>
+    </None>
+    <None Include="06_Operators.md">
       <Filter>Notes</Filter>
     </None>
   </ItemGroup>

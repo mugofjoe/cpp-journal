@@ -77,9 +77,20 @@ they are are called _inline functions_
 	- Passed the wrong number of parameters
 	- Passed the wrong type of parameter
 	- Mistake declaring (.h)
-		- When you get a lot of errors, just fix the first one.
+		- When you get a lot of errors, __just fix the first one__.
 	- Mistake implementing
 	- Declared but forgot to implement (in .cpp)
 		- Linker errors (LNK)
+			- missing implementations
 			- "unresolved external symbol"
+	- Forgot to include the right header file
+		- You get error messages in places that includes that header file.
+	- Forgot to include header in the implementtion file (.cpp)
+	- Forgot to add implementation file to project
+
+## Immediate If
+
+`result = somecondition? 7 : 302;`
+
+
 

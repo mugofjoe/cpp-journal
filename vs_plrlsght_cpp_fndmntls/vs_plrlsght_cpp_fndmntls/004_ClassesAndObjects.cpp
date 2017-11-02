@@ -54,17 +54,40 @@ void lesson_member_functions(void)
 	cout << "p1: " << p1.GetName() << " " << p1.GetNumber() << endl;
 }
 
+void lesson_operator_overload(void)
+{
+	Person p1("Kate", "Gregory", 123);
+	Person p2("Someone", "Else", 456);
+	cout << "p1 is ";
+	if (!(p1 < p2))
+		cout << "not ";
+	cout << "less than p2" << endl;
 
-int main(int argc, _TCHAR* argv[])
+	cout << "p1 is ";
+	if (!(p1 < 300))
+		cout << "not ";
+	cout << "less than 300" << endl;
+
+	cout << "300 is ";
+	if (!(300 < p1))
+		cout << "not ";
+	cout << "less than p1" << endl;
+}
+
+
+int main()
 {
 	// lesson_classes ();
 	// lesson_scope();
 	// lesson_inheritance();
 	// lesson_inheritance2();
 	// lesson_enum1();
-	lesson_member_functions();
+	// lesson_member_functions();
+	lesson_operator_overload();
 	return 0;
 }
+
+
 
 
 

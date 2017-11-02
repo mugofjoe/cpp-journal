@@ -19,5 +19,11 @@ public:
 	std::string GetName();
 	int GetNumber() { return arbitrarynumber; }
 	void SetNumber(int number) { arbitrarynumber = number;  }
+	bool operator<(Person& p);
+	bool operator<(int i);
+	friend bool operator< (int i, Person& p);
 }; 
+
+bool operator<(int i, Person& p);
+
 #endif // !_PERSON_H

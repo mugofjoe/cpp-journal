@@ -156,6 +156,8 @@
     <ClCompile Include="005_If.cpp" />
     <ClCompile Include="005_Switch.cpp" />
     <ClCompile Include="005_While.cpp" />
+    <ClCompile Include="005_Immediate_If.cpp" />
+    <ClCompile Include="006_Arithmetic.cpp" />
     <ClCompile Include="Person.cpp" />
     <ClCompile Include="stdafx.cpp" />
     <ClCompile Include="000_Hell_Joel.cpp" />
@@ -168,6 +170,7 @@
     <None Include="03_FundamentalTypes.md" />
     <None Include="04_UserDefinedTypes.md" />
     <None Include="05_FlowControl.md" />
+    <None Include="06_Operators.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
