@@ -18,6 +18,6 @@ Tweeter::Tweeter(string first,
 
 Tweeter::~Tweeter()
 {
-	cout << "constructing Tweeter " <<
+	cout << "destructing Tweeter " <<
 		twitterhandle << endl;
 }

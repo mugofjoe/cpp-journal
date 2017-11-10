@@ -7,4 +7,5 @@ bool Is2MorePrime(int x);
 // parameter passed by reference
 // bool Is2MorePrime(int& x);
 
+// A dangling reference
 //int& BadFunction();

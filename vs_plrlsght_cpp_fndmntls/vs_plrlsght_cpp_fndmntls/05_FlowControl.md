@@ -34,7 +34,7 @@
 
 - Expression and values must be integral type or enum
 
-## Functions
+## FUNCTIONS
 
 - Declare before you use
 	- Include header in multiple places

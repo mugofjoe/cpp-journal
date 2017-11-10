@@ -17,8 +17,11 @@ public:
 	~Person();
 
 	std::string GetName();
+
+	// Inline Functions are like Properties
 	int GetNumber() { return arbitrarynumber; }
 	void SetNumber(int number) { arbitrarynumber = number;  }
+
 	bool operator<(Person& p);
 	bool operator<(int i);
 	friend bool operator< (int i, Person& p);

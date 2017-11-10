@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-/*
+/***
 int main(int argc, _TCHAR* argv[])
 {
 	int x, y;
@@ -10,7 +10,8 @@ int main(int argc, _TCHAR* argv[])
 	cin >> x >> y;
 
 	cout << x << " ";
-	if (x > y) {
+	if (x > y) 
+	{
 		cout << "is larger than ";
 	}
 	else
@@ -24,4 +25,5 @@ int main(int argc, _TCHAR* argv[])
 
 	return 0;
 }
-*/
+
+***/

@@ -160,7 +160,7 @@
     <ClCompile Include="006_Arithmetic.cpp" />
     <ClCompile Include="Person.cpp" />
     <ClCompile Include="stdafx.cpp" />
-    <ClCompile Include="000_Hell_Joel.cpp" />
+    <ClCompile Include="000_Hello_Joel.cpp" />
     <ClCompile Include="Tweeter.cpp" />
     <ClCompile Include="Utility.cpp" />
   </ItemGroup>

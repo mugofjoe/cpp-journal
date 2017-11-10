@@ -82,8 +82,8 @@ int main()
 	// lesson_inheritance();
 	// lesson_inheritance2();
 	// lesson_enum1();
-	// lesson_member_functions();
-	lesson_operator_overload();
+	 lesson_member_functions();
+	// lesson_operator_overload();
 	return 0;
 }
 

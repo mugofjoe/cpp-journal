@@ -3,6 +3,7 @@
 using namespace std;
 
 /***
+
 int main() {
 	int x;
 	cout << "Enter a number, 0 to quit" << endl;
@@ -35,3 +36,4 @@ int main() {
 }
 
 ***/
+

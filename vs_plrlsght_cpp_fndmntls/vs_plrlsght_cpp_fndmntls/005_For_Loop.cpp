@@ -28,4 +28,5 @@ int main()
 		cout << "not prime" << endl;
 
 }
+
 ***/

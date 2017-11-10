@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-/****
+/***
 int main()
 {
 	int x;
@@ -32,4 +32,5 @@ int main()
 
 	return 0;
 }
-****/
+
+***/
