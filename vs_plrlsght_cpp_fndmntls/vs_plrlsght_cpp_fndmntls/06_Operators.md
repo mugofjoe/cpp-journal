@@ -5,7 +5,7 @@
 Prefix and Postfix Operators
 
 `i++` returns the old value of i and then increments it.
-`++i` increments i and then returns the new value
+`++i` increments i first and then returns the new value
 
 Modulo - remainder after dividing
 

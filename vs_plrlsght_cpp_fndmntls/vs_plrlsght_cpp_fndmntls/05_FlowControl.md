@@ -56,7 +56,7 @@ Pass by reference
 
 	`bool Is2MorePrime(int& x);`
 
-## Member Functions
+## MEMBER FUNCTIONS
 
 - Must have a return type
 

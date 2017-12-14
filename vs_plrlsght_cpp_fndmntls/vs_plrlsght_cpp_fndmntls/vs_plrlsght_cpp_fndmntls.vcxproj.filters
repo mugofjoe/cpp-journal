@@ -39,6 +39,18 @@
     <ClInclude Include="Utility.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Human.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Templates.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Accum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -83,6 +95,30 @@
     <ClCompile Include="000_Hello_Joel.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Human.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="007_Function_Template.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="007_Class_Template.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="008_Pointers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="008_Const.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="008_FreeStore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="008_Memory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="01_Context.md">
@@ -101,6 +137,30 @@
       <Filter>Notes</Filter>
     </None>
     <None Include="06_Operators.md">
+      <Filter>Notes</Filter>
+    </None>
+    <None Include="07_Templates.md">
+      <Filter>Notes</Filter>
+    </None>
+    <None Include="08_Pointers.md">
+      <Filter>Notes</Filter>
+    </None>
+    <None Include="08_Const.md">
+      <Filter>Notes</Filter>
+    </None>
+    <None Include="08_Free_Store.md">
+      <Filter>Notes</Filter>
+    </None>
+    <None Include="08_Manual_Memory_Mgmt.md">
+      <Filter>Notes</Filter>
+    </None>
+    <None Include="08_Easy_Memory_Mgmt.md">
+      <Filter>Notes</Filter>
+    </None>
+    <None Include="08_Smart_Pointers.md">
+      <Filter>Notes</Filter>
+    </None>
+    <None Include="08_Summary.md">
       <Filter>Notes</Filter>
     </None>
   </ItemGroup>
