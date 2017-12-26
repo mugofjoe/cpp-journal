@@ -14,5 +14,9 @@ way to access memory
 - The free store (aka the heap) gives objects
 a lifetime longer than local scope
 
+- Manual memory management is hard
+- Smart pointers
+
+
 
 

@@ -163,5 +163,8 @@
     <None Include="08_Summary.md">
       <Filter>Notes</Filter>
     </None>
+    <None Include="09_1_Pointers and Inheritance.md">
+      <Filter>Notes</Filter>
+    </None>
   </ItemGroup>
 </Project>

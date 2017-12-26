@@ -191,6 +191,7 @@
     <None Include="08_Pointers.md" />
     <None Include="08_Smart_Pointers.md" />
     <None Include="08_Summary.md" />
+    <None Include="09_1_Pointers and Inheritance.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
